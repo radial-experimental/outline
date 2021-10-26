@@ -8,3 +8,10 @@ stats.json
 .DS_Store
 fakes3/*
 .idea
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*
+
