@@ -21,7 +21,7 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  name: builds/$CODEBUILD_BUILD_NUMBER/outline.zip
+  name: outline-build-$CODEBUILD_BUILD_NUMBER.zip
   s3-prefix: codebuild/
   files:
     - build/**/*
